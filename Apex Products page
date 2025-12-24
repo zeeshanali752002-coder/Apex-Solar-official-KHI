@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - SolarPower Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">SolarPower Solutions</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="images/solar-panels.jpg" alt="Solar Panels">
+                <h3>Solar Panels</h3>
+                <p>High-efficiency panels from top brands like LG and Panasonic. Up to 22% efficiency, 25-year warranty.</p>
+                <p>Starting at $0.50/Watt.</p>
+            </div>
+            <div class="product">
+                <img src="images/inverters.jpg" alt="Inverters">
+                <h3>Inverters</h3>
+                <p>String and micro inverters for optimal performance. Compatible with all systems.</p>
+                <p>Starting at $1,000.</p>
+            </div>
+            <div class="product">
+                <img src="images/batteries.jpg" alt="Lithium Batteries">
+                <h3>Lithium Batteries</h3>
+                <p>Long-lasting storage for off-grid or backup power. 10-year warranty.</p>
+                <p>Starting at $5,000 for 10kWh.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 SolarPower Solutions. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
