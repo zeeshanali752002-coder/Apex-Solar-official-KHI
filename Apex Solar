@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Leading provider of solar panels, inverters, and lithium batteries for sustainable energy. Get expert installation and save on energy costs.">
+    <meta name="keywords" content="solar panels, inverters, lithium batteries, renewable energy, solar installation">
+    <title>SolarPower Solutions - Solar Panels, Inverters & Batteries</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #228b22; /* Dark green */
+            color: white;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+        }
+
+        .hero {
+            background-image: url('images/hero-solar.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            padding: 2rem;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .btn {
+            background-color: #ffd700;
+            color: #333;
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s;
+            display: inline-block;
+        }
+
+        .btn:hover {
+            background-color: #ffed4e;
+        }
+
+        section {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .features, .product-grid, .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .product, .feature {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .product img, .feature img {
+            max-width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        input, textarea {
+            padding: 0.75rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        footer {
+            background-color: #228b22;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        footer a {
+            color: #ffd700;
+        }
+
+        .testimonials {
+            background: #e8f5e8;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-top: 2rem;
+        }
+
+        .testimonial {
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">SolarPower Solutions</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Harness the Power of the Sun</h1>
+        <p>Top-quality solar panels, inverters, and lithium batteries for homes and businesses. Reduce bills, go green, and achieve energy independence.</p>
+        <a href="#contact" class="btn">Request a Free Quote</a>
+    </section>
+
+    <section class="features">
+        <h2>Why Choose Us?</h2>
+        <div class="feature-grid">
+            <div class="feature">
+                <h3>Expert Installation</h3>
+                <p>Certified technicians ensure safe, efficient setups.</p>
+            </div>
+            <div class="feature">
+                <h3>Reliable Products</h3>
+                <p>Premium brands with warranties up to 25 years.</p>
+            </div>
+            <div class="feature">
+                <h3>Sustainable Savings</h3>
+                <p>Lower energy costs and qualify for tax incentives.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About SolarPower Solutions</h2>
+        <p>Founded in 2015, we are a trusted leader in renewable energy solutions. With over 500 installations, we specialize in solar panels, inverters, and lithium batteries to help you transition to clean energy.</p>
+        <img src="images/team.jpg" alt="Our team">
+        <h3>Our Mission</h3>
+        <p>To make sustainable energy accessible and affordable for everyone.</p>
+        <div class="testimonials">
+            <h3>What Our Customers Say</h3>
+            <div class="testimonial">
+                <p>"SolarPower installed our system flawlessly. We've saved thousands!" - John D.</p>
+            </div>
+            <div class="testimonial">
+                <p>"Reliable batteries kept us powered during outages." - Sarah L.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="images/solar-panels.jpg" alt="Solar Panels">
+                <h3>Solar Panels</h3>
+                <p>High-efficiency panels from top brands like LG and Panasonic. Up to 22% efficiency, 25-year warranty.</p>
+                <p>Starting at $0.50/Watt.</p>
+            </div>
+            <div class="product">
+                <img src="images/inverters.jpg" alt="Inverters">
+                <h3>Inverters</h3>
+                <p>String and micro inverters for optimal performance. Compatible with all systems.</p>
+                <p>Starting at $1,000.</p>
+            </div>
+            <div class="product">
+                <img src="images/batteries.jpg" alt="Lithium Batteries">
+                <h3>Lithium Batteries</h3>
+                <p>Long-lasting storage for off-grid or backup power. 10-year warranty.</p>
+                <p>Starting at $5,000 for 10kWh.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li><strong>Custom Design & Installation:</strong> Tailored systems for your energy needs.</li>
+            <li><strong>Maintenance & Repairs:</strong> Annual check-ups and quick fixes.</li>
+            <li><strong>Energy Audits:</strong> Free assessments to optimize savings.</li>
+            <li><strong>Permitting & Incentives:</strong> We handle paperwork for rebates.</li>
+        </ul>
+    </section>
+
+    <section id="blog">
+        <h2>Solar Energy Blog</h2>
+        <article>
+            <h3>Top 5 Benefits of Lithium Batteries</h3>
+            <p>Lithium batteries offer longer life, faster charging, and more storage than traditional options. Learn how they can power your home...</p>
+            <a href="#" class="btn">Read More</a>
+        </article>
+        <article>
+            <h3>How to Choose the Right Inverter</h3>
+            <p>String vs. micro inverters: Which is best for your solar setup? Our guide breaks it down...</p>
+            <a href="#" class="btn">Read More</a>
+        </article>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="mailto:info@solarpowersolutions.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="tel" name="phone" placeholder="Your Phone">
+            <textarea name="message" placeholder="Tell us about your project" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <p>Phone: (555) 123-4567 | Email: info@solarpowersolutions.com | Address: 123 Solar St, Green City, USA</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 SolarPower Solutions. All rights reserved. | <a href="#home">Back to Top</a></p>
+    </footer>
+
+    <script>
+        // Smooth scrolling for nav links
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Simple form validation
+        document.querySelectorAll('form').forEach(form => {
+            form.addEventListener('submit', function(e) {
+                const email = form.querySelector('input[type="email"]');
+                if (email && !email.value.includes('@')) {
+                    alert('Please enter a valid email.');
+                    e.preventDefault();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
